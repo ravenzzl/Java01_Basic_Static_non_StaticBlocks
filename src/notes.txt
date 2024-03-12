@@ -1,0 +1,23 @@
+
+Static and non-static blocks 
+
+STATIC BLOCK
+	   *runs or execute before main method
+	   *it will run even if there is no instance in main method
+	   *runs only one time 
+       *creation of static block syntax --
+          
+          static{
+            //code we need 
+          }
+       
+
+NON-STATIC BLOCK 
+         	*runs everytime an instance  object is created for class
+         	*if we have 5 instance then it will run 5 times
+          	*creation of non-static block
+          	   syntax :-
+          	     
+          	     {
+          	        code we need 
+          	     }
